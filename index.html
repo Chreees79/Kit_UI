@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://kit.fontawesome.com/a7144d1c16.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2043&q=80" style="width:537px;height:369px;">
+  <title>Kit UI du vocal 15</title>
+</head>
+<body>
+  <h1>Kit UI du vocal 15</h1>
+  
+  <p>Sujet: réseau social pour les fans d'escalade et de chats.</p>
+
+  
+<!-- Colors panel -->
+  <div class="exemple">
+    <div class="exemple_title">
+      <h2>Palette de couleurs:</h2>
+    </div>
+    <div class="exemple_content">
+      <div class="element primary text-primary" >
+        <p>primary-color</p>
+        <p>#988676</p>
+      </div>
+      <div class="element secondary text-secondary" >
+        <p>secondary-color</p>
+        <p>#70969E</p>
+      </div>
+      <div class="element dark" style="color: white" >
+        <p>dark</p>
+        <p>#6E6E6E</p>
+      </div>
+      <div class="element medium-light" >
+        <p>medium-light</p>
+        <p>#ADADAD</p>
+      </div>
+      <div class="element light" >
+        <p>light</p>
+        <p>#EDEDED</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Typos -->
+  <div class="exemple">
+    <div class="exemple_title">
+      <h2>Nos typos</h2>
+    </div>
+    <div class="exemple_content">
+      <div class="typos_exemple">
+          <h1>h1 pour les titres</h1>
+          <h2>h2 pour les sous-titres</h2>
+          <h3>h3pour les sous-sous-titres</h3>
+          <h4>h4 pour les sous sous sous titres</h4>
+          <h5>h5 pour les sous sous sous sous titres</h5>
+          <h6>h6 pour les sous sous sous sous sous titres</h6>
+          <p>styles de nos paragraphes -p- </p>
+          <p class="lead">lead(paragraphe mis en avant)</p>
+          <blockquote>
+            <p>styles des citations -blockquote-</p>
+            <small>Source, author</small>
+          </blockquote> 
+      </div>
+    </div>
+  </div>
+
+  <!-- Buttons -->
+  <div class="exemple">
+    <div class="exemple_title">
+        <h2>Nos boutons:</h2>
+    </div>
+    <div class="btn_group">
+      <button class="btn info">Info</button>
+      <button class="btn success">Success</button>
+      <button class="btn warning" >Warning</button>
+      <button class="btn danger">Danger</button>
+    </div>
+  </div>
+    <div class="btn_group">
+      <button class="btn info_outline">Info</button>
+      <button class="btn success_outline">Success</button>
+      <button class="btn warning_outline" >Warning</button>
+      <button class="btn danger_outline">Danger</button>
+    </div>
+  </div>
+
+  <!-- Icons -->
+  <div class="exemple">
+    <div class="exemple_title">
+      <h2>Icones:</h2>
+      <div class="exemple_content">
+        <div class="fa-3x">
+          <i class="fa-solid fa-bell fa-shake icons"></i>
+        </div>
+        <div class="fa-3x" >
+          <i class="fa-solid fa-spinner fa-spin-pulse icons"></i>
+        </div>
+        <div class="fa-3x">
+          <i class="fa-solid fa-heart fa-beat icons"></i>
+        </div>
+        <div class="fa-3x">
+          <i class="fa-solid fa-envelope fa-bounce icons" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;" ></i>
+        </div>
+        <div class="fa-3x">
+          <i class="fa-solid fa-circle-info fa-beat-fade icons" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;" ></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Formulaires -->
+  <h2 class="exemple_title">Nos formulaires</h2>
+  <div class="exemple_content">
+    <form>
+      <input type="text"  placeholder="Texte" class="form form_width box_shadow"><br>
+      <input type="text" placeholder="Texte" class="form form_width form_visited form_pass"><br>
+      <input type="text"  placeholder="Texte" class="form form_width form_rounded box_shadow"><br>
+      <input type="text"  placeholder="Texte" class="form form_width form_rounded form_visited form_pass"><br>
+      <input type="password"  placeholder="*******" class="form form_width form_rounded form_pass"><br>
+      <input type="email"  placeholder="email" class="form form_width form_rounded box_shadow"><br>
+      <textarea name="tarea" cols="30" rows="10" class="form form_width box_shadow" placeholder="Espace de texte"></textarea><br>
+      <input type="datetime-local" class="form form_width box_shadow form_date"><br>
+        <div class="form_center">
+          <label>par défaut</label>
+          <input type="checkbox" class="form">
+          <label>checked</label>
+          <input type="checkbox" class="form check_radio" checked><br>
+          <label>par défaut</label>
+          <input type="radio" class="form check_radio">
+          <label>checked</label>
+          <input type="radio" class="form check_radio" checked><br>
+          <select class="form_dropdown">
+            <option>Liste déroulante </option>
+            <option>exemple 1</option>
+            <option>exemple 2</option>
+            <option>exemple 3</option>
+            <option>exemple 4</option>
+          </select>
+        </div>
+    </form>
+  </div>
+
+  <!-- Cards -->
+  <div class="exemple">
+    <div class="exemple_title">
+      <h2>Passion Escalade:</h2>
+    </div>
+    <div class="exemple_content">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2003&q=80" alt="climbocean">
+        <div class="content">
+          <p>Passion Escalade</p>
+          <ol>
+            <li> Great look </li>
+            <li> Good specs </li>
+            <li> Good Camera </li>
+          </ol>
+          <div class="price">
+            <button> Go </button>
+            <button> No </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <p>Passion Escalade</p>
+          <ol>
+            <li> Great look </li>
+            <li> Good specs </li>
+            <li> Good Camera </li>
+          </ol>
+          <div class="price">
+            <button> Go </button>
+            <button> No </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2003&q=80" alt="climbocean">
+        <div class="content">
+          <p>Passion Escalade</p>
+          <p>Et voici le texte à écrire dans le corps de la card !</p>
+        </div>
+      </div>
+      <div class="card">
+          <p>Titre de card</p>
+          <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2003&q=80" alt="climbocean">
+      </div>
+      <div class="card-avatar">
+        <div class="card-items">
+        <p>Titre de carte</p>
+        <div class="content">
+          <p>Passion Escalade</p>
+          <p>Et voici le texte à écrire dans le corps de la card ! voyons si j'ecris plus de text ce que ca donne dans la carte.</p>
+        </div>
+      </div>
+      <div class="card-items">
+        <div class="fa-3x">
+          <i class="fa-solid fa-bell fa-shake icons"></i>
+        </div>
+        
+          <img src="https://png.pngtree.com/png-clipart/20190903/original/pngtree-cartoon-man-mountain-climbing-download-png-image_4427251.jpg">
+        
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Lists -->
+
+  <div class="exemple">
+    <div class="exemple_title">
+        <h2>Listes:</h2>
+    </div>
+    <div class="list-group">
+      <p>test de liste</p>
+      <p>test de liste</p>
+      <p>test de liste</p>   
+    </div>
+  </div>
+  
+  </body>
+</html>
+

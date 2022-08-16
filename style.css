@@ -103,6 +103,19 @@ img {
   background-color: #5bd7ed;
 }
 
+.btn_sm {
+  padding: 10px 15px;
+  height: 42px;
+  font-size: 0.8em;
+}
+.btn_md {
+  padding: 10px 30px;
+  height: 50px;
+}
+.btn_lg {
+  padding: 20px 40px;
+  font-size: 1.2em;
+}
 /* -----  buttons outline  ----- */
 
 .warning_outline {
